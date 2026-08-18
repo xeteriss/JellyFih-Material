@@ -1,0 +1,479 @@
+:root {
+    --md-primary: #66BB6A;
+    --md-primary-dark: #4CAF50;
+    --md-surface: #0F1410;
+    --md-surface-container: #161B17;
+    --md-surface-container-high: #1E241F;
+    --md-surface-container-highest: #252B26;
+    --md-on-surface: #E1E3DF;
+    --md-on-surface-variant: #A8AEA6;
+    --md-outline: #4A5048;
+    --md-outline-variant: #2E342F;
+}
+
+html, body, .page {
+    overflow-x: visible !important;
+    background-color: var(--md-surface) !important;
+    color: var(--md-on-surface) !important;
+}
+
+.layoutManager,
+.skinHeader-withBackground,
+.mainDrawer,
+.mainAnimatedPages,
+#mainPage {
+    overflow: visible !important;
+}
+
+.skinHeader {
+    background-color: var(--md-surface-container) !important;
+    border-bottom-color: var(--md-outline-variant) !important;
+}
+
+.mainDrawer {
+    background-color: var(--md-surface-container) !important;
+}
+
+.navMenuOption-selected {
+    background-color: var(--md-primary-dark) !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+}
+
+.navMenuOption:hover {
+    background-color: var(--md-surface-container-high) !important;
+    border-radius: 20px !important;
+}
+
+.cardBox {
+    border-radius: 16px !important;
+}
+
+.cardPadder {
+    border-radius: 12px !important;
+}
+
+.cardImageContainer {
+    border-radius: 12px !important;
+}
+
+.raised, .button-submit, .btnPlay {
+    background-color: var(--md-primary) !important;
+    color: #0A1F0C !important;
+    border-radius: 20px !important;
+    border: none !important;
+}
+
+.raised:hover, .button-submit:hover {
+    background-color: #7BC67E !important;
+}
+
+.button-flat {
+    background-color: var(--md-surface-container-high) !important;
+    color: var(--md-on-surface) !important;
+    border-radius: 20px !important;
+}
+
+.emby-input, .emby-select, .emby-textarea,
+.inputContainer input {
+    background-color: var(--md-surface-container-high) !important;
+    border-color: var(--md-outline) !important;
+    border-radius: 12px !important;
+    color: var(--md-on-surface) !important;
+}
+
+.emby-input:focus, .emby-select:focus {
+    border-color: var(--md-primary) !important;
+}
+
+h1, h2, h3, .sectionTitle, .sectionTitleText {
+    color: var(--md-on-surface) !important;
+}
+
+.listItem {
+    background-color: var(--md-surface-container) !important;
+    border-radius: 12px !important;
+    margin-bottom: 4px !important;
+}
+
+.listItem:hover {
+    background-color: var(--md-surface-container-high) !important;
+}
+
+.dialog, .dialogContentInner {
+    background-color: var(--md-surface-container-high) !important;
+    border-radius: 24px !important;
+    color: var(--md-on-surface) !important;
+}
+
+.playbackProgress > div {
+    background-color: var(--md-primary) !important;
+}
+
+.countIndicator, .playedIndicator {
+    background-color: var(--md-primary) !important;
+    color: #0A1F0C !important;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--md-outline);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--md-surface-container);
+}
+
+a, button, .emby-button, .cardBox {
+    transition: all 0.2s ease !important;
+}
+
+.nowPlayingBar {
+    position: fixed !important;
+    bottom: 20px !important;
+    left: 20px !important;
+    right: 20px !important;
+    max-width: calc(100vw - 40px) !important;
+    width: auto !important;
+    background-color: var(--md-surface-container-high) !important;
+    border-radius: 24px !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+    backdrop-filter: blur(16px) !important;
+    border: 1px solid var(--md-outline-variant) !important;
+    padding: 12px 24px !important;
+    z-index: 1000 !important;
+    overflow: visible !important;
+    clip-path: none !important;
+    box-sizing: border-box !important;
+}
+
+.nowPlayingBarContainer {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    overflow: visible !important;
+    border-radius: 24px !important;
+}
+
+.mainAnimatedPages, .page {
+    padding-bottom: 120px !important;
+}
+
+.btnPlay, .btnPlayPause, .btnNextTrack, .btnPreviousTrack,
+.btnShuffleQueue, .btnRepeatMode, .btnStop {
+    color: var(--md-on-surface) !important;
+}
+
+.btnPlay:hover, .btnPlayPause:hover, .btnNextTrack:hover, 
+.btnPreviousTrack:hover, .btnShuffleQueue:hover, 
+.btnRepeatMode:hover, .btnStop:hover {
+    color: var(--md-primary) !important;
+}
+
+.headerButton, .headerButton:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.headerButton:hover {
+    color: var(--md-primary) !important;
+}
+
+.navMenuOption, .navMenuOption:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.navMenuOption:hover {
+    color: var(--md-primary) !important;
+}
+
+.btnMoreCommands, .btnEdit, .btnDelete, .btnPlayAll,
+.btnShuffle, .btnInstantMix, .btnQueue {
+    color: var(--md-on-surface) !important;
+}
+
+.btnMoreCommands:hover, .btnEdit:hover, .btnDelete:hover,
+.btnPlayAll:hover, .btnShuffle:hover, .btnInstantMix:hover,
+.btnQueue:hover {
+    color: var(--md-primary) !important;
+}
+
+.cardOverlayButton, .cardOverlayButton:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.cardOverlayButton:hover {
+    color: var(--md-primary) !important;
+}
+
+.buttonMute, .buttonMute:hover,
+.volumeSlider, .volumeSlider:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.buttonMute:hover {
+    color: var(--md-primary) !important;
+}
+
+.dialog .btnSubmit, .dialog .btnSubmit:hover,
+.dialog .btnCancel, .dialog .btnCancel:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.dialog .btnSubmit:hover {
+    color: var(--md-primary) !important;
+}
+
+.starIcon {
+    color: var(--md-primary) !important;
+}
+
+.viewSettingsButton, .viewSettingsButton:hover,
+.listIconButton, .listIconButton:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.viewSettingsButton:hover, .listIconButton:hover {
+    color: var(--md-primary) !important;
+}
+
+.filterButton, .filterButton:hover,
+.sortButton, .sortButton:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.filterButton:hover, .sortButton:hover {
+    color: var(--md-primary) !important;
+}
+
+.btnBack, .btnBack:hover,
+.btnForward, .btnForward:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.btnBack:hover, .btnForward:hover {
+    color: var(--md-primary) !important;
+}
+
+.btnSubtitles, .btnSubtitles:hover,
+.btnVideoQuality, .btnVideoQuality:hover,
+.btnFullscreen, .btnFullscreen:hover {
+    color: var(--md-on-surface) !important;
+}
+
+.btnSubtitles:hover, .btnVideoQuality:hover, .btnFullscreen:hover {
+    color: var(--md-primary) !important;
+}
+
+.material-icons:hover {
+    color: var(--md-primary) !important;
+}
+
+a.btn, a.btn:hover {
+    color: var(--md-on-surface) !important;
+}
+
+a.btn:hover {
+    color: var(--md-primary) !important;
+}
+
+.nowPlayingBar .emby-button {
+    color: var(--md-on-surface) !important;
+}
+
+.nowPlayingBar .emby-button:hover {
+    color: var(--md-primary) !important;
+}
+
+.nowPlayingBar .mdl-slider {
+    color: var(--md-primary) !important;
+}
+
+.nowPlayingBar .mdl-slider::-webkit-slider-thumb {
+    background-color: var(--md-primary) !important;
+}
+
+.nowPlayingBar .nowPlayingInfo {
+    color: var(--md-on-surface) !important;
+}
+
+.nowPlayingBar .nowPlayingBarSecondaryInfo {
+    color: var(--md-on-surface-variant) !important;
+}
+
+.btnPlayPause, .btnNextTrack, .btnPreviousTrack,
+.btnShuffleQueue, .btnRepeatMode {
+    color: var(--md-on-surface) !important;
+}
+
+.btnPlayPause:hover, .btnNextTrack:hover, .btnPreviousTrack:hover,
+.btnShuffleQueue:hover, .btnRepeatMode:hover {
+    color: var(--md-primary) !important;
+    transform: scale(1.1);
+}
+
+.nowPlayingBar .volumeSlider {
+    color: var(--md-primary) !important;
+}
+
+a:hover,
+.textlink:hover,
+.emby-button:hover,
+.button-link:hover,
+.navMenuOption:hover,
+.listItem:hover .listItemBodyText,
+.cardText:hover,
+.sectionTitleText:hover {
+    color: var(--md-primary) !important;
+}
+
+a, .textlink, .button-link {
+    color: var(--md-on-surface-variant) !important;
+    transition: color 0.2s ease !important;
+}
+
+a:visited {
+    color: var(--md-secondary) !important;
+}
+
+button, .emby-button, .btn, a, .raised, .button-flat,
+.headerButton, .navMenuOption, .cardOverlayButton,
+.btnPlay, .btnPlayPause, .btnNextTrack, .btnPreviousTrack,
+.btnShuffleQueue, .btnRepeatMode, .btnStop,
+.btnMoreCommands, .btnEdit, .btnDelete, .btnPlayAll,
+.btnShuffle, .btnInstantMix, .btnQueue,
+.viewSettingsButton, .listIconButton,
+.filterButton, .sortButton, .btnBack, .btnForward,
+.btnSubtitles, .btnVideoQuality, .btnFullscreen,
+.buttonMute, .btnSubmit, .btnCancel {
+    outline: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+button:focus, .emby-button:focus, .btn:focus, a:focus,
+.raised:focus, .button-flat:focus,
+.headerButton:focus, .navMenuOption:focus,
+.btnPlay:focus, .btnPlayPause:focus,
+.btnNextTrack:focus, .btnPreviousTrack:focus,
+.btnShuffleQueue:focus, .btnRepeatMode:focus {
+    outline: 2px solid var(--md-primary) !important;
+    outline-offset: 2px !important;
+    border-color: var(--md-primary) !important;
+    box-shadow: 0 0 0 2px var(--md-primary) !important;
+}
+
+button:hover, .emby-button:hover, .btn:hover, a:hover,
+.raised:hover, .button-flat:hover,
+.headerButton:hover, .navMenuOption:hover {
+    outline: none !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.sliderTrack,
+.sliderTrackContainer,
+.nowPlayingBar .sliderTrack,
+.nowPlayingBar .sliderTrackContainer,
+.mdl-slider::-webkit-slider-runnable-track,
+.sliderTrackContainer,
+.trackBackground {
+    background-color: var(--md-surface-container-highest) !important;
+    border-radius: 4px !important;
+    height: 4px !important;
+    border: none !important;
+}
+
+.sliderTrackFilled,
+.nowPlayingBar .sliderTrackFilled,
+.mdl-slider::-webkit-slider-thumb::before,
+.sliderBubbleTrack,
+.progressring-spiner,
+.itemProgressBarForeground,
+.playbackProgress > div,
+.backgroundProgress > div,
+.taskProgressInner {
+    background-color: var(--md-primary) !important;
+    border-radius: 4px !important;
+}
+
+.sliderTrackBuffered,
+.nowPlayingBar .sliderTrackBuffered,
+.nowPlayingBar .mdl-slider::-moz-range-track {
+    background-color: var(--md-outline-variant) !important;
+    border-radius: 4px !important;
+    height: 4px !important;
+}
+
+.sliderThumb,
+.nowPlayingBar .sliderThumb,
+.mdl-slider::-webkit-slider-thumb,
+.nowPlayingBar .mdl-slider::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    background: var(--md-primary) !important;
+    border: none !important;
+    box-shadow: 0 0 6px rgba(102, 187, 106, 0.4) !important;
+    cursor: pointer !important;
+    margin-top: -5px !important;
+}
+
+.sliderBubble,
+.sliderBubbleText {
+    background-color: var(--md-surface-container-highest) !important;
+    border-radius: 8px !important;
+    border: 1px solid var(--md-outline-variant) !important;
+    color: var(--md-on-surface) !important;
+}
+
+.mdl-slider::-moz-range-track {
+    background: var(--md-surface-container-highest) !important;
+    border: none !important;
+    border-radius: 4px !important;
+    height: 4px !important;
+}
+
+.mdl-slider::-moz-range-progress {
+    background: var(--md-primary) !important;
+    border-radius: 4px !important;
+}
+
+.mdl-slider::-moz-range-thumb {
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50% !important;
+    background: var(--md-primary) !important;
+    border: none !important;
+    box-shadow: 0 0 6px rgba(102, 187, 106, 0.4) !important;
+}
+
+.mdl-slider:focus,
+.mdl-slider::-webkit-slider-thumb:focus,
+.mdl-slider::-moz-range-thumb:focus,
+.sliderContainer:focus,
+.nowPlayingBar .sliderContainer:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(102, 187, 106, 0.3) !important;
+}
+
+*:focus {
+    outline-color: var(--md-primary) !important;
+}
+
+*:focus-visible {
+    outline-color: var(--md-primary) !important;
+    outline-offset: 2px !important;
+}
+
+.emby-input:focus, .emby-select:focus, .emby-textarea:focus,
+.inputContainer input:focus {
+    border-color: var(--md-primary) !important;
+    box-shadow: 0 0 0 1px var(--md-primary) !important;
+}
