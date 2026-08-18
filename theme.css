@@ -11,7 +11,7 @@
     --md-outline-variant: #2E342F;
 }
 
-html, body, .page {
+html, body, .page, .mainAnimatedPages, .content-primary, .backgroundContainer, .backdropContainer {
     overflow-x: visible !important;
     background-color: var(--md-surface) !important;
     color: var(--md-on-surface) !important;
@@ -476,4 +476,8 @@ button:hover, .emby-button:hover, .btn:hover, a:hover,
 .inputContainer input:focus {
     border-color: var(--md-primary) !important;
     box-shadow: 0 0 0 1px var(--md-primary) !important;
+}
+
+.verticalSection, .itemsContainer, .emby-scrollbuttons {
+    background-color: var(--md-surface) !important;
 }
