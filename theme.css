@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
 :root {
     --md-primary: #66BB6A;
     --md-primary-dark: #4CAF50;
@@ -502,4 +504,11 @@ body:has(.videoPlayerContainer) .itemsContainer {
     background: #000000 !important;
     opacity: 1 !important;
     visibility: visible !important;
+}
+
+body, html, .page, .layoutManager, .mainDrawer, .skinHeader, 
+h1, h2, h3, h4, .sectionTitle, .cardText, .listItem, 
+.navMenuOption, .emby-input, .emby-select, .emby-textarea,
+.nowPlayingBar, .nowPlayingInfo, .nowPlayingBarSecondaryInfo {
+    font-family: 'Dela Gothic One', system-ui, -apple-system, sans-serif !important;
 }
