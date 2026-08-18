@@ -481,3 +481,25 @@ button:hover, .emby-button:hover, .btn:hover, a:hover,
 .verticalSection, .itemsContainer, .emby-scrollbuttons {
     background-color: var(--md-surface) !important;
 }
+
+body:has(.videoPlayerContainer) .backgroundContainer,
+body:has(.videoPlayerContainer) .backdropContainer,
+body:has(.videoPlayerContainer) .page,
+body:has(.videoPlayerContainer) .mainAnimatedPages,
+body:has(.videoPlayerContainer) .content-primary,
+body:has(.videoPlayerContainer) .verticalSection,
+body:has(.videoPlayerContainer) .itemsContainer {
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.videoPlayerContainer {
+    background-color: #000000 !important;
+}
+
+.videoPlayerContainer video,
+.videoPlayerContainer .htmlvideoplayer {
+    background: #000000 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
