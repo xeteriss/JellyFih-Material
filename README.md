@@ -1,2 +1,3 @@
 # JellyFih-Material
-Material theme for jellyfih
+
+## Just add css code in your dashboard :D
