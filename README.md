@@ -1,5 +1,5 @@
 # Jellyfin-Material
 
-## Just add css code in your dashboard :D
+## Just add contents of theme.css to your dashboard! :D
 
 ![Screenshot](https://github.com/xeteriss/JellyFih-Material/blob/main/ThemeScreenshot.jpg)
