@@ -512,3 +512,79 @@ h1, h2, h3, h4, .sectionTitle, .cardText, .listItem,
 .nowPlayingBar, .nowPlayingInfo, .nowPlayingBarSecondaryInfo {
     font-family: 'Dela Gothic One', system-ui, -apple-system, sans-serif !important;
 }
+
+#loginPage,
+#loginPage .backgroundContainer,
+#loginPage .backdropContainer,
+#loginPage .page,
+#loginPage .mainAnimatedPages,
+#loginPage .content-primary {
+    background-color: transparent !important;
+    background-image: url('https://i.pinimg.com/736x/50/34/a0/5034a0861f15df97d68638f26817442e.jpg') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+#loginPage .readOnlyContent,
+#loginPage .loginPageContent {
+    background: rgba(0, 0, 0, 0.75) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-radius: 24px !important;
+    border: 1px solid rgba(102, 187, 106, 0.3) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
+    padding: 40px !important;
+    max-width: 500px !important;
+    margin: 40px auto !important;
+}
+
+#loginPage .sectionTitle,
+#loginPage h1 {
+    color: #000000 !important;
+    background: rgba(102, 187, 106, 0.85) !important;
+    padding: 15px 30px !important;
+    border-radius: 16px !important;
+    display: inline-block !important;
+    border: 1px solid var(--md-primary) !important;
+}
+
+#loginPage .inputLabel,
+#loginPage .checkboxLabel,
+#loginPage .fieldDescription {
+    color: var(--md-primary) !important;
+}
+
+#loginPage .inputContainer input,
+#loginPage .emby-input {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-color: var(--md-primary) !important;
+    color: var(--md-primary) !important;
+}
+
+#loginPage .inputContainer input::placeholder {
+    color: rgba(102, 187, 106, 0.5) !important;
+}
+
+#loginPage .checkboxOutline {
+    border-color: var(--md-primary) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+#loginPage .checkboxOutline-checked {
+    background-color: var(--md-primary) !important;
+}
+
+#loginPage .raised,
+#loginPage .button-submit {
+    background-color: var(--md-primary) !important;
+    color: #0A1F0C !important;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+}
+
+#loginPage .warning-text {
+    color: var(--md-primary) !important;
+    text-align: center !important;
+}
